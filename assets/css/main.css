@@ -87,12 +87,6 @@ h6 {
   font-family: var(--heading-font);
 }
 
-/** Temporary remove stretched links */
-.unstretched-link {
-  display: none!important;
-}
-
-
 .bi-xing-x {
   display: inline-block;
   width: 27px!important;
