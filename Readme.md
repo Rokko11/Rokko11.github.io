@@ -33,6 +33,7 @@ Die Website ist mit dem **Folio-Theme** von [BootstrapMade](https://bootstrapmad
 
 ## To-Do
 
+- [x] Impressum und Datenschutz
 - [ ] Lizenz für dieses Repo
 - [ ] Weiterer Ausbau der Portfolio-Sektion.
 - [ ] Weiterer Ausbau der Blog-Sektion.
