@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Technologie-Experte
+title: About me
 description: Mit über 18 Jahren Erfahrung in Java und einem starken Fokus auf Qualität unterstütze ich Unternehmen in allen Bereichen der modernen Software-Entwicklung.
 permalink: /about/
 label: Java, Spring Boot, Testautomatisierung, Cloud-Security, Fullstack
-image: '/images/service-technology.jpg'
 page_cover: '/images/hintergrund-unsplash.jpg'
 ---
 
