@@ -28,7 +28,7 @@ menu_settings:
       url: '/services/'
     - title: 'Branchen'
       url: '/projects/'
-    - title: 'About'
+    - title: 'About me'
       url: '/about/'
 
 

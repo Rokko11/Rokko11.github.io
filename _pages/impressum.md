@@ -3,6 +3,7 @@ layout: page
 title: Impressum
 permalink: /impressum/
 image:
+hidden: true
 page_cover: '/images/hintergrund-unsplash.jpg'
 ---
 

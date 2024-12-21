@@ -2,7 +2,7 @@
 layout: page
 title: Datenschutzerklärung
 permalink: /datenschutz/
-image:
+hidden: true
 page_cover: '/images/hintergrund-unsplash.jpg'
 ---
 
