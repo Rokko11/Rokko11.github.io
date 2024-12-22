@@ -1,24 +1,28 @@
 ---
 layout: page
-title: About me
-description: Danke für Ihren Besuch meiner Webpräsenz und meines Blogs. Ich gebe mir größte Mühe, über Themen zu schreiben, die mich bewegen und auch für Sie einen Mehrwert bieten. Ehrlich gesagt macht es mir sehr viel Spaß und das positive Feedback, das ich von Ihnen erhalte, motiviert mich, weiterzumachen.
+title: About Me
+description: Vielen Dank für den Besuch meiner Website und meines Blogs. Es macht mir großen Spaß, über Themen zu schreiben, die mich bewegen und die auch für Sie einen Mehrwert bieten. Das positive Feedback, das ich von Ihnen erhalte, motiviert mich, weiterzumachen.
 permalink: /about/
 label: Java, Spring Boot, Testautomatisierung, Cloud, Software-Architektur
 page_cover: '/images/hintergrund-unsplash.jpg'
 ---
 
-### Einige Wörter über mich...
+### Über mich
 
-Ich wohne im wunderschönen Süden Deutschlands und habe mehr als 12 Jahre professionelle Erfahrung in der IT als Java-Entwickler und Software-Architekt. Seit 2024 bin ich Freiberufler und genieße die Freiheit, je nach Interesse spannende und abwechslungsreiche Projekte anzunehmen oder abzulehnen. Mein Job ist mein Hobby. Daher fällt es mir leicht, auf dem neusten Stand zu bleiben und mich für neue Technologien zu begeistern.  
+Ich lebe im malerischen Süden Deutschlands und blicke auf über 12 Jahre Berufserfahrung in der IT als Java-Entwickler und Software-Architekt zurück. Seit 2024 arbeite ich als Freiberufler und genieße die Freiheit, spannende und abwechslungsreiche Projekte nach meinen Interessen auszuwählen. Mein Beruf ist zugleich meine Leidenschaft, was es mir leicht macht, stets am Puls der Zeit zu bleiben und mich für neue Technologien zu begeistern.
 
 ### Meine Lieblingsthemen
 
-Meist steht nicht die Technologie im Fokus, sondern das fachliche Problem. Daher bin ich glücklich, über Zufall in die Compliance-Welt geraten zu sein. Themen wie Anti-Geldwäsche, KYC, Anti-Terrorismusfinanzierung, Betrugserkennung etc. interessieren mich, bieten gesellschaftlichen Mehrwert und sind technologisch hochinteressant. Da ich in dieser Nische glücklich bin und die Regulatorik immer wieder für neue Herausforderungen sorgt, bildet dieses Thema mein Interessensschwerpunkt.
+In meiner Arbeit steht weniger die Technologie, sondern vielmehr das fachliche Problem im Fokus. Über Umwege bin ich in die Compliance-Welt gelangt und habe dort meine berufliche Heimat gefunden. Themen wie Anti-Geldwäsche, KYC, Terrorismusfinanzierung, Betrugserkennung und ähnliche Bereiche faszinieren mich. Sie bieten nicht nur gesellschaftlichen Mehrwert, sondern stellen auch technologisch anspruchsvolle Herausforderungen dar. Diese Nische begeistert mich, da die sich ständig ändernde Regulatorik immer wieder neue Möglichkeiten und Herausforderungen bietet.
 
-Auf der anderen Seite interessiert mich die Digitalisierung im Gesundheitswesen sehr. Ich habe nach meinem Studium der Mathematik und Informatik (2006-2012) aus Interesse noch Medizininformatik (2016-2019) studiert und konnte so die vielen Facetten der Digitalisierung(slücken) im Gesundheitswesen kennenlernen. Aus meiner Sicht herrscht hier unglaubliches Potential, um innovative Software-Produkte auf den Markt zu bringen, um die Patientenversorgung besser und effizienter zu gestalten. Aber leider hat der Tag nur 24 Stunden ¯\_(ツ)_/¯.
+Ein weiteres Herzensthema ist die Digitalisierung im Gesundheitswesen. Nach meinem Studium der Mathematik und Informatik (2006–2012) habe ich aus Interesse noch Medizininformatik (2016–2019) studiert. Dabei konnte ich die zahlreichen Facetten und Digitalisierungslücken im Gesundheitswesen kennenlernen. Aus meiner Sicht birgt dieser Bereich enormes Potenzial, um innovative Softwareprodukte zu entwickeln, die die Patientenversorgung verbessern und effizienter gestalten können.
 
-### Meine Technologien
+### Technologien und Expertise
 
-Wie bereits gesagt - es kommt auf das Problem und nicht auf die Technologie an. Aber der Vollständigkeit halber ein kurzer Abriss meiner Kerntechnologien:
+Wie bereits erwähnt: Im Mittelpunkt steht das Problem, nicht die Technologie. Trotzdem ein kurzer Überblick über meine Kerntechnologien:
 
-Meine Kernexpertise habe ich beim Einsatz von Java-basierten Frameworks wie JavaEE oder Spring Boot und neuerdings auch Quarkus. Damit kann man wunderbar die 12 Faktoren von Cloud-Native Software einhalten, da meine Software immer für AWS, Docker, Kubernetes & Co. konzipiert ist. Ich mache mir gerne Gedanken um Software-Architektur´und Serverless-Architekturen in der Cloud. Ich gebe Acht auf Code-Qualität und finde, dass die fachlichen Komponenten der Testautomatisierung oft vernachlässigt werden.  
+- **Java-basierte Frameworks**: Meine Expertise liegt in Frameworks wie JavaEE, Spring Boot und neuerdings auch Quarkus. Diese Technologien ermöglichen es, die 12 Faktoren von Cloud-Native-Software einzuhalten und leistungsstarke Anwendungen zu entwickeln.
+- **Cloud-Technologien**: Meine Software ist immer für Umgebungen wie AWS, Docker und Kubernetes konzipiert. Ich beschäftige mich intensiv mit Themen wie Software- und Serverless-Architekturen in der Cloud.
+- **Code-Qualität und Testautomatisierung**: Ich lege großen Wert auf sauberen Code und finde, dass die fachlichen Aspekte der Testautomatisierung oft unterschätzt werden.
+
+Für mich geht es letztlich darum, die beste Lösung für ein Problem zu finden – unabhängig von der Technologie. 
