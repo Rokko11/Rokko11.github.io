@@ -38,7 +38,7 @@ So wird beispielsweise eine Überweisung an einen "Alex" akzeptiert, wenn der Za
 **Optionale Zusatzleistungen:**
 - Implementierung eines Lasttests zum Sicherstellen der Performance-Anforderungen (+14 Tage)
 - Erstellung fachlicher Regressionstests des Namensvergleichs auf Excel-Basis (+14 Tage)
-- Implementierung einer mandantenfägigen Lösung zur Trennung der Daten unterschiedl Institute (+21 Tage)
+- Implementierung einer mandantenfägigen Lösung zur Trennung der Daten unterschiedlicher Institute (+21 Tage)
 
 ### Ablauf des Projekts
 
