@@ -1,7 +1,6 @@
 ---
 title: Softwarelösungen für den Versicherungsbereich
 description: Ich unterstütze Versicherungsunternehmen bei der Optimierung Ihrer IT-Systeme für eine effizientere Verarbeitung und schnellere Abläufe.
-date: 2024-10-30 14:00:00
 label: Versicherungen, AML, KYC, IT-Modernisierung, Risikobewertung
 image: '/images/service-insurance-icon.png'
 cover: '/images/service-insurance-icon.png'
