@@ -1,8 +1,7 @@
 ---
 title: Bekämpfung von Finanzkriminalität
 description: Ich unterstütze gerne bei der Entwicklung und Optimierung von Softwarelösungen zur Bekämpfung von Finanzkriminalität. Ich bringe Expertise in der Entwicklung, Anbindung und Ablöse von AML, KYC und CFT-Systemen mit.
-label: AML, KYC, FIU, CFT, AFC, Anti-Financial-Crime
-date: 2024-12-23 00:00:01
+label: AML, KYC, CFT, AFC, Anti-Financial-Crime, Anti-Geldwäsche
 image: '/images/compliance-icon.png'
 cover: '/images/compliance-icon.png'
 page_cover: '/images/hintergrund-unsplash.jpg'
