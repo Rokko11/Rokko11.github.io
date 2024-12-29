@@ -18,8 +18,8 @@ c/o MDC Management#275
 
 ### Kontakt
 
-Telefon: +49 (0)176 92812881  
 E-Mail: [webmaster@richard-vogel.de](mailto:webmaster@richard-vogel.de)
+Alternativ verwenden Sie bitte das Kontaktformular meiner Webseite.
 
 ### Umsatzsteuer-ID
 
