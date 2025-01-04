@@ -40,6 +40,12 @@ So wird beispielsweise eine Überweisung an einen "Alex" akzeptiert, wenn der Za
 - Erstellung fachlicher Regressionstests des Namensvergleichs auf Excel-Basis (+14 Tage)
 - Implementierung einer mandantenfägigen Lösung zur Trennung der Daten unterschiedlicher Institute (+21 Tage)
 
+### Unterstütze Schnittstellen
+
+- **EPC-konforme Schnittstelle nach VoP-Rulebook**: Meine Dienstleistung gewährleistet die Implementierung einer konformen API-Schnittstelle, die vollständig den Anforderungen des EPC-Rulebooks entspricht. Dies schließt die performante Einzelverarbeitung ein.
+- **Batch-Schnittstelle für pain.001 und pain.002**: Neben der Standard-API-Integration unterstütze ich die Implementierung einer Batch-Schnittstelle (z.B. für Einsatz in EBICS), die das Einlesen von Zahlungsaufträgen im ISO 20022-Format **pain.001** ermöglicht. Die Ergebnisse der Namensprüfung können als Statusberichte im Format **pain.002** zurückgegeben werden.
+- **Import-Schnittstelle**: Die Implementierung einer individuellen Schnittstelle, um Kontoinformationen performant in das System zu importieren.
+
 ### Ablauf des Projekts
 
 1. **Systemintegration und API-Entwicklung**: Erstellung einer Übersicht, wie der IBAN Name Check Service in Ihre Umgebung integriert wird. Erstellung von API-Definitionen (z.B. CLI, REST, MQ).
