@@ -16,7 +16,7 @@ images:
 
 ### Verification of Payee
 
-Die "Verification of Payee" (VoP) des European Payments Council (EPC) ist ein Verfahren, bei dem vor der Ausführung einer Zahlung überprüft wird, ob der Name des Zahlungsempfängers mit den Kontodaten (z.B. IBAN) übereinstimmt. So soll das Risiko für fehlgeleitete Zahlungen minimiert und Betrug vermieden werden. Die erste Version des VoP-Regelwerks wurde am 10. Oktober 2024 veröffentlicht und tritt am 5. Oktober 2025 in Kraft.
+Die "Verification of Payee" (VoP) des European Payments Council (EPC) ist ein Verfahren, bei dem **vor** der Ausführung einer Zahlung überprüft wird, ob der Name (für natürliche Personen) oder der LEI (Legal Entity Identifier) des Zahlungsempfängers mit dem des Zielkontos (ermittelt über IBAN) übereinstimmt. So soll das Risiko für fehlgeleitete Zahlungen minimiert und Betrug vermieden werden. Die erste Version des VoP-Regelwerks wurde am 10. Oktober 2024 veröffentlicht und tritt am 5. Oktober 2025 in Kraft.
 
 ### IBAN-Name-Check Service
 
