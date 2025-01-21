@@ -32,18 +32,18 @@ So wird beispielsweise eine Überweisung an einen "Alex" akzeptiert, wenn der Za
 
 ### Projektdetails
 
-- **Lieferzeit**: 60 Tage
+- **Lieferzeit**: 90 Tage
 - **Revisionen**: Bis zu 3 Revisionen, um die Lösung Ihren Anforderungen anzupassen.
 
 **Optionale Zusatzleistungen:**
 - Implementierung eines Lasttests zum Sicherstellen der Performance-Anforderungen (+14 Tage)
-- Erstellung fachlicher Regressionstests des Namensvergleichs auf Excel-Basis (+14 Tage)
+- Erstellung fachlicher Regressionstests des Namensvergleichs auf Excel-Basis mit Nachvollziehbarem Test-Reporting (+14 Tage)
 - Implementierung einer mandantenfägigen Lösung zur Trennung der Daten unterschiedlicher Institute (+21 Tage)
 
 ### Unterstütze Schnittstellen
 
 - **EPC-konforme Schnittstelle nach VoP-Rulebook**: Meine Dienstleistung gewährleistet die Implementierung einer konformen API-Schnittstelle, die vollständig den Anforderungen des EPC-Rulebooks entspricht. Dies schließt die performante Einzelverarbeitung ein.
-- **Batch-Schnittstelle für pain.001 und pain.002**: Neben der Standard-API-Integration unterstütze ich die Implementierung einer Batch-Schnittstelle (z.B. für Einsatz in EBICS), die das Einlesen von Zahlungsaufträgen im ISO 20022-Format **pain.001** ermöglicht. Die Ergebnisse der Namensprüfung können als Statusberichte im Format **pain.002** zurückgegeben werden.
+- **Batch-Schnittstelle für pain.001 und pain.002**: Neben der Standard-API-Integration unterstütze ich die Implementierung einer Batch-Schnittstelle (z.B. für Einsatz in EBICS), die das Einlesen von Zahlungsaufträgen im ISO 20022-Format **pain.001** ermöglicht. Diese Schnittstelle ist noch nicht durch die EPC gefordert, jedoch ist sie in Diskussion und könnte als kurzfristige Lösung für Massenanfragen gewählt werden. Die Ergebnisse der Namensprüfung können als Statusberichte im Format **pain.002** zurückgegeben werden.
 - **Import-Schnittstelle**: Die Implementierung einer individuellen Schnittstelle, um Kontoinformationen performant in das System zu importieren.
 
 ### Ablauf des Projekts
