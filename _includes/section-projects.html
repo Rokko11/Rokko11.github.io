@@ -16,7 +16,7 @@
           </div>
 
           <div class="row">
-            {% assign sorted = site.projects | sort: 'date' | reverse %}
+            {% assign sorted = site.projects | sort: "sort_order" %}
             {% for project in sorted limit:8 %}
             <article class="project col col-6 col-t-12 animate">
               <div class="project__content">
