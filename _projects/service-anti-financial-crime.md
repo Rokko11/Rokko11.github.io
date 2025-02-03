@@ -5,6 +5,7 @@ label: AML, KYC, CFT, AFC, Anti-Financial-Crime, Anti-Geldwäsche
 image: '/images/compliance-icon.png'
 cover: '/images/compliance-icon.png'
 page_cover: '/images/hintergrund-unsplash.jpg'
+sort_order: 1
 ---
 
 ### Finanzkriminalität und moderne Abwehrmechanismen

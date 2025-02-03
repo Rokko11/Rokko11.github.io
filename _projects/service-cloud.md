@@ -5,6 +5,7 @@ label: Cloud Migration, Legacy Modernisierung, Kubernetes, Docker, 12-Factor
 image: '/images/cloud-migration-legacy-icon.png'
 cover: '/images/cloud-migration-legacy-icon.png'
 page_cover: '/images/hintergrund-unsplash.jpg'
+sort_order: 4
 ---
 
 ### Cloudifizierung von Legacy-Systemen

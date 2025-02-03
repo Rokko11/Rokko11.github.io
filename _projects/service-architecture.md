@@ -5,6 +5,7 @@ label: Software-Architektur, Skalierbarkeit, Cloud-Architektur, AWS, Resilienz
 image: '/images/service-software-architecture-icon.png'
 cover: '/images/service-software-architecture-icon.png'
 page_cover: '/images/hintergrund-unsplash.jpg'
+sort_order: 3
 ---
 
 ### Bewertung und Entwicklung moderner Software-Architekturen

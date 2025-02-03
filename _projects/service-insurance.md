@@ -5,6 +5,7 @@ label: Versicherungen, AML, KYC, IT-Modernisierung, Risikobewertung
 image: '/images/service-insurance-icon.png'
 cover: '/images/service-insurance-icon.png'
 page_cover: '/images/hintergrund-unsplash.jpg'
+sort_order: 2
 ---
 
 ### IT-Lösungen für den Versicherungsbereich

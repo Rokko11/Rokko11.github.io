@@ -5,6 +5,7 @@ label: Health IT, Medizininformatik, Interoperabilität, IHE, HL7, FHIR
 image: '/images/healthcare-icon.png'
 cover: '/images/healthcare-icon.png'
 page_cover: '/images/hintergrund-unsplash.jpg'
+sort_order: 5
 ---
 
 ### Digitalisierung im Gesundheitswesen
