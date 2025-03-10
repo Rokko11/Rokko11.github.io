@@ -30,27 +30,43 @@ Das EPC definiert klare Regeln, wie stark der Name von den hinterlegten Daten ab
 
 So wird beispielsweise eine Überweisung an einen "Alex" akzeptiert, wenn der Zahlungsempfänger "Alexander" heißt, da dies als Close Match gilt. Eine Überweisung an "Andreas" hingegen würde als **No Match** eingestuft, da keine ausreichende Namensähnlichkeit vorliegt.
 
-### Projektdetails
+### Lookup des EPC Directory Services (EDS)
 
-- **Lieferzeit**: 90 Tage
-- **Revisionen**: Bis zu 3 Revisionen, um die Lösung Ihren Anforderungen anzupassen.
+Um die Orchestrierung der Zahlungsdienstleister untereinander korrekt abzubilden, verteilt das EPC das EDS-Dokument. Die lokale Kopie des EDS enthält Routing-Informationen zu den Empfängerbanken sowie eine Feature-Liste, die der IBAN-Name-Check der Empfängerbank unterstützt. Auch wird diese lokale Kopie dafür verwendet, um die Herkunft von IBAN-Name-Check Anfragen zu verifizieren.
+
+### IBAN to BIC Converter
+
+Laut EPC VoP Rulebook steht die Ermittlung der Empfänger-BIC aus der eingegebenen IBAN an erster Stelle der Verarbeitungskette. Jedoch gibt es unter den teilnehmenden Ländern des SEPA-Raums keine einheitliche Vorgehensweise, aus der IBAN die BIC zu ermitteln. Daher müssen diese Informationen aus Listen der jeweiligen Zentralbanken ausgelesen werden und einheitlich zur Verfügung gestellt werden.  
+
+### Batchverarbeitung
+
+Zwar wurde von einigen Banken das Feedback eingereicht, dass im IBAN-Name-Check Dienst eine Batchverarbeitung ermöglicht werden soll. Hierzu gibt es etwa für EBICS das Konzept, den Namensvergleich als pain.001 zu senden und die Ergebnisse als pain.002 zu erhalten. Dies wurde abschließend jedoch nicht weiter spezifiziert und ist auch zum Stichtag im Oktober 2025 nicht relevant.
+
+### Features und Projektdetails
+
+Ich biete die Entwicklung der Kernkomponenten des VoP an. Konkret sind In-Scope:
+
+- **EPC-konforme Schnittstelle nach VoP-Rulebook**: Implementierung einer konformen API-Schnittstelle, die vollständig den API-Spezifikationen incl. Validierungen entspricht.
+- **Name-Matching Algorithmus**: Implementierung des Prüfungsalgorithmus' nach Empfehlungen des EPC. Außerdem wird ein exaktes Matching von identifizierenden Feldern wie u.a. LEI je nach Verfügbarkeit umgesetzt.
+- **Umsetzung des IBAN-to-BIC Converters**: Ein regelmäßiger Import (nach Verfügbarkeit) der Banken-Listen aus Zentralbank-Datenquellen wird umgesetzt.
+- **Anbindung einer lokalen EDS Kopie**: Ein regelmäßiges Update des EDS sowie die Routing- und Validierungslogik wird umgesetzt. 
+- **Performante Import-Schnittstelle**: Die Implementierung einer individuellen Schnittstelle, um Kontoinformationen performant in das System zu importieren.
+- **Wartbarer Tech-Stack**: Die Anwendung wird auf Java-Basis implementiert und hochskalierbar unter Berücksichtigung von Cloud-Native Patterns umgesetzt. Auslieferung als Docker-Image oder jar-Anwendung.
+- **Zentrale Datenhaltung**: Kontoinformationen, Routing-Informationen (aus EDS) sowie BIC-Lookup-Tabellen (für den IBAN-to-BIC Converter) werden zentral und transparent in einer relationalen Datenbank hinterlegt.
+
+- **Lieferzeit**: 120 Tage
+- **Revisionen**: Bis zu 4 Revisionen, um die Lösung Ihren Anforderungen anzupassen.
 
 **Optionale Zusatzleistungen:**
 - Implementierung eines Lasttests zum Sicherstellen der Performance-Anforderungen (+14 Tage)
 - Erstellung fachlicher Regressionstests des Namensvergleichs auf Excel-Basis mit Nachvollziehbarem Test-Reporting (+14 Tage)
-- Implementierung einer mandantenfägigen Lösung zur Trennung der Daten unterschiedlicher Institute (+21 Tage)
-
-### Unterstütze Schnittstellen
-
-- **EPC-konforme Schnittstelle nach VoP-Rulebook**: Meine Dienstleistung gewährleistet die Implementierung einer konformen API-Schnittstelle, die vollständig den Anforderungen des EPC-Rulebooks entspricht. Dies schließt die performante Einzelverarbeitung ein.
-- **Batch-Schnittstelle für pain.001 und pain.002**: Neben der Standard-API-Integration unterstütze ich (sobald final entschieden) die Implementierung einer Batch-Schnittstelle (z.B. für Einsatz in EBICS), die das Einlesen von Zahlungsaufträgen im ISO 20022-Format **pain.001** ermöglicht. Diese Schnittstelle ist noch nicht durch die EPC gefordert, jedoch ist sie in Diskussion und könnte als kurzfristige Lösung für Massenanfragen gewählt werden. Die Ergebnisse der Namensprüfung können als Statusberichte im Format **pain.002** zurückgegeben werden.
-- **Import-Schnittstelle**: Die Implementierung einer individuellen Schnittstelle, um Kontoinformationen performant in das System zu importieren.
+- Implementierung einer mandantenfägigen Lösung zur Trennung der Daten unterschiedlicher Institute (+30 Tage)
 
 ### Ablauf des Projekts
 
-1. **Systemintegration und API-Entwicklung**: Erstellung einer Übersicht, wie der IBAN Name Check Service in Ihre Umgebung integriert wird. Erstellung von API-Definitionen (z.B. CLI, REST, MQ).
+1. **Systemintegration und API-Entwicklung**: Erstellung einer Übersicht, wie die Schnittstellen des VoP Service in Ihre Umgebung integriert wird. Erstellung von API-Definitionen (z.B. CLI, REST, MQ).
 2. **Technischer Proof of Concept**: Lieferung einer Version, die den API-Contracts entspricht und in Ihre Umgebung integriert werden kann.
-3. **Finale Version**: Fertigstellung des Dienstes incl. konfigurierbarer Namensprüfung und Datenimport (z.B. IBAN und Namen)
+3. **Umsetzungsphase**: Fertigstellung des Dienstes incl. konfigurierbarer Namensprüfung und Datenimport (z.B. IBAN und Namen)
 4. **Lasttests (optional)**: Durchführung von Lasttests auf Ihrer Umgebung, um sicherzustellen, dass der Service auch unter hoher Belastung zuverlässig funktioniert.
 5. **Regressionstests (optional)**: Automatisierung fachlicher Tests der Namensprüfung
 
