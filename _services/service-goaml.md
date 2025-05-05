@@ -3,17 +3,11 @@
 title: Automatisierung des FIU-Reportings mit goAML XML 
 description: Ich biete professionelle Dienstleistungen zur Automatisierung von goAML XML Reporting, einschließlich Datenkonvertierung, benutzerdefinierter Datenzuordnung und XML-Validierung.
 gallery_columns: 2
-date: 2024-11-01 10:00:00 +0200
+date: 2025-04-01 10:00:00 +0200
 label: goAML, FIU Reporting, XSD 1.1, SAR, STR, AML
 cover: '/images/goaml-icon.png'
 caption: "Gallerie/Screenshots"
 page_cover: '/images/hintergrund-unsplash.jpg'
-images:
-
-- image: "/images/goaml-example-xml.png"
-  alt: Erzeugtes XML einer hohen Bareinzahlung
-- image: "/images/goaml-example-xsd.png"
-  alt: Öffentliches XSD der Luxemburgischen FIU
 
 ---
 
@@ -38,15 +32,6 @@ Dies betrifft auch die Zuordnung der Enumerationen, sodass Sie selbst Änderunge
 ### Regressions-Testing (Optional)
 
 Um auch künftigen Änderungen des XSD-Schemas oder Ihrer Compliance-Software gewappnet zu sein, biete ich als optionale Zusatzleistung die Entwicklung eines Regressions-Testframeworks an. Dies basiert auf Excel, sodass auch Fachanwender die Tests spezifizieren, verstehen und warten können. Diese Excel-Dateien werden automatisiert ausgelesen und als End-To-End-Test ausgeführt.
-
-### Projektdetails
-
-- **Lieferzeit**: 60 Tage
-- **Revisionen**: Bis zu 3 Revisionen, um sicherzustellen, dass die Lösung genau Ihren Anforderungen entspricht.
-
-**Optionale Zusatzleistungen:**
-
-- Regressions-Testframework mit beispielhaften, kundenspezifischen Tests der goAML-Meldung
 
 ### Ablauf des Projekts
 

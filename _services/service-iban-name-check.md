@@ -7,11 +7,6 @@ label: PSD3, IBAN-Name-Check, Verification of Payee, VOP, Betrugsprävention
 cover: '/images/psd3-iban-name-check-icon.png'
 page_cover: '/images/hintergrund-unsplash.jpg' 
 caption: "Gallerie/Screenshots"
-images:
-  - image: "/images/name-iban-check-psd3-sequence-diagram.png"
-    alt: Darstellung des Services im Sequenzdiagramm der EU
-  - image: "/images/name-iban-check-psd3-expectations.png"
-    alt: Automatisierter Test auf Excel-Basis bzgl. der Anforderungen der Namensprüfung
 ---
 
 ### Verification of Payee
