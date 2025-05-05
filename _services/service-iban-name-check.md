@@ -38,10 +38,6 @@ Um die Orchestrierung der Zahlungsdienstleister untereinander korrekt abzubilden
 
 Laut EPC VoP Rulebook steht die Ermittlung der Empfänger-BIC aus der eingegebenen IBAN an erster Stelle der Verarbeitungskette. Jedoch gibt es unter den teilnehmenden Ländern des SEPA-Raums keine einheitliche Vorgehensweise, aus der IBAN die BIC zu ermitteln. Daher müssen diese Informationen aus Listen der jeweiligen Zentralbanken ausgelesen werden und einheitlich zur Verfügung gestellt werden.  
 
-### Batchverarbeitung
-
-Zwar wurde von einigen Banken das Feedback eingereicht, dass im IBAN-Name-Check Dienst eine Batchverarbeitung ermöglicht werden soll. Hierzu gibt es etwa für EBICS das Konzept, den Namensvergleich als pain.001 zu senden und die Ergebnisse als pain.002 zu erhalten. Dies wurde abschließend jedoch nicht weiter spezifiziert und ist auch zum Stichtag im Oktober 2025 nicht relevant.
-
 ### Features und Projektdetails
 
 Ich biete die Entwicklung der Kernkomponenten des VoP an. Konkret sind In-Scope:
@@ -54,20 +50,9 @@ Ich biete die Entwicklung der Kernkomponenten des VoP an. Konkret sind In-Scope:
 - **Wartbarer Tech-Stack**: Die Anwendung wird auf Java-Basis implementiert und hochskalierbar unter Berücksichtigung von Cloud-Native Patterns umgesetzt. Auslieferung als Docker-Image oder jar-Anwendung.
 - **Zentrale Datenhaltung**: Kontoinformationen, Routing-Informationen (aus EDS) sowie BIC-Lookup-Tabellen (für den IBAN-to-BIC Converter) werden zentral und transparent in einer relationalen Datenbank hinterlegt.
 
-- **Lieferzeit**: 120 Tage
-- **Revisionen**: Bis zu 4 Revisionen, um die Lösung Ihren Anforderungen anzupassen.
-
 **Optionale Zusatzleistungen:**
-- Implementierung eines Lasttests zum Sicherstellen der Performance-Anforderungen (+14 Tage)
-- Erstellung fachlicher Regressionstests des Namensvergleichs auf Excel-Basis mit Nachvollziehbarem Test-Reporting (+14 Tage)
-- Implementierung einer mandantenfägigen Lösung zur Trennung der Daten unterschiedlicher Institute (+30 Tage)
-
-### Ablauf des Projekts
-
-1. **Systemintegration und API-Entwicklung**: Erstellung einer Übersicht, wie die Schnittstellen des VoP Service in Ihre Umgebung integriert wird. Erstellung von API-Definitionen (z.B. CLI, REST, MQ).
-2. **Technischer Proof of Concept**: Lieferung einer Version, die den API-Contracts entspricht und in Ihre Umgebung integriert werden kann.
-3. **Umsetzungsphase**: Fertigstellung des Dienstes incl. konfigurierbarer Namensprüfung und Datenimport (z.B. IBAN und Namen)
-4. **Lasttests (optional)**: Durchführung von Lasttests auf Ihrer Umgebung, um sicherzustellen, dass der Service auch unter hoher Belastung zuverlässig funktioniert.
-5. **Regressionstests (optional)**: Automatisierung fachlicher Tests der Namensprüfung
+- Implementierung eines Lasttests zum Sicherstellen der Performance-Anforderungen
+- Erstellung fachlicher Regressionstests des Namensvergleichs auf Excel-Basis mit Nachvollziehbarem Test-Reporting
+- Implementierung einer mandantenfägigen Lösung zur Trennung der Daten unterschiedlicher Institute
 
 Mit meiner Unterstützung erhalten Sie eine robuste, valide und zukunftssichere Lösung zur Erfüllung der VoP-Anforderung des EPC.
