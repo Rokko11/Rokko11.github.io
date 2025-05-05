@@ -16,7 +16,7 @@ Ich biete einen spezialisierten Dienst zur **End-to-End-Testung von AML-Systemen
 #### Kernelemente meiner Dienstleistung
 
 **Testabdeckung der AML-Regeln:**  
-Überprüfung aller relevanten Regelwerke – z. B. Transaktionsmonitoring, partnerzentrierter Prüfungen, Hochrisikokunden, Sanktionslisten, PEP-Screening – mit bis zu **100% fachlicher Testabdeckung**.
+Überprüfung aller relevanten Regelwerke – z. B. Transaktionsmonitoring, partnerzentrierter Prüfungen, Hochrisikokunden, Sanktionslisten, PEP-Screening – aller relevanter fachlicher Kombinationen inkl. Edge-Cases.
 
 **Kundensegmentierung und Risikoklassifizierung:**  
 Tests zur Validierung der korrekten Zuordnung von Kunden zu Segmenten sowie zur Überprüfung der Risikoeinstufung nach regulatorischen und bankinternen Vorgaben.
