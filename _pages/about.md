@@ -9,13 +9,13 @@ page_cover: '/images/hintergrund-unsplash.jpg'
 
 ### Über mich
 
-Ich lebe im malerischen Süden Deutschlands und blicke auf über 12 Jahre Berufserfahrung in der IT als Java-Entwickler und Software-Architekt zurück. Seit 2024 arbeite ich als Freiberufler und genieße die Freiheit, spannende und abwechslungsreiche Projekte nach meinen Interessen auszuwählen. Mein Beruf ist zugleich meine Leidenschaft, was es mir leicht macht, stets am Puls der Zeit zu bleiben und mich für neue Technologien zu begeistern.
+Ich lebe im malerischen Süden Deutschlands und blicke auf über 13 Jahre Berufserfahrung in der IT als Java-Entwickler und Software-Architekt zurück. Seit 2024 arbeite ich als Freiberufler und genieße die Freiheit, spannende und abwechslungsreiche Projekte nach meinen Interessen auszuwählen. Mein Beruf ist zugleich meine Leidenschaft, was es mir leicht macht, stets am Puls der Zeit zu bleiben und mich für neue Technologien zu begeistern.
 
 ### Meine Lieblingsthemen
 
 In meiner Arbeit steht weniger die Technologie, sondern vielmehr das fachliche Problem im Fokus. Über Umwege bin ich in die Compliance-Welt gelangt und habe dort meine berufliche Heimat gefunden. Themen wie Anti-Geldwäsche, KYC, Terrorismusfinanzierung, Betrugserkennung und ähnliche Bereiche faszinieren mich. Sie bieten nicht nur gesellschaftlichen Mehrwert, sondern stellen auch technologisch anspruchsvolle Herausforderungen dar. Diese Nische begeistert mich, da die sich ständig ändernde Regulatorik immer wieder neue Möglichkeiten und Herausforderungen bietet.
 
-Ein weiteres Herzensthema ist die Digitalisierung im Gesundheitswesen. Nach meinem Studium der Mathematik und Informatik (2006–2012) habe ich aus Interesse noch Medizininformatik (2016–2019) studiert. Dabei konnte ich die zahlreichen Facetten und Digitalisierungslücken im Gesundheitswesen kennenlernen. Aus meiner Sicht birgt dieser Bereich enormes Potenzial, um innovative Softwareprodukte zu entwickeln, die die Patientenversorgung verbessern und effizienter gestalten können.
+Ein weiteres Herzensthema ist die Digitalisierung im Gesundheitswesen. Zusätzlich zum Studium der Mathematik und Informatik habe ich später aus Interesse noch Medizininformatik studiert und erfolgreich abgeschlossen. Dabei konnte ich die zahlreichen Facetten und Digitalisierungslücken im Gesundheitswesen kennenlernen. Aus meiner Sicht birgt dieser Bereich enormes Potenzial, um innovative Softwareprodukte zu entwickeln, die die Patientenversorgung verbessern und effizienter gestalten können.
 
 ### Technologien und Expertise
 
