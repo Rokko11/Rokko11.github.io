@@ -37,7 +37,19 @@ menu_settings:
 author:
   author_name: Richard Vogel
   author_role: Ihr Experte für Technologie im Bereich Anti-Finanzkriminalität
-  author_bio: "Als erfahrener Cloud-Architekt und Java-Entwickler mit über 13 Jahren Erfahrung in der Softwareentwicklung - 10 davon im Banken und Versicherungsumfeld - unterstütze ich Ihr Unternehmen dabei, effektive Lösungen zu entwickeln und zu integrieren. Meine Expertise liegt in der Implementierung maßgeschneiderter Technologien im Bereich der <strong>Bekämpfung von Finanzkriminalität (AML, KYC, CFT)</strong>.<p><p>Als zertifizierer Softwarearchitekt (iSAQB CPSA-A und CPSA-F) sowie AWS Certified Solutions Architect helfe ich Ihnen, Systeme zu schaffen, die sowohl Compliance-Anforderungen erfüllen als auch höchste Effizienz und Skalierbarkeit bieten.<p><p><strong>Kontaktieren Sie mich um</strong><p><ul><li>Ihren <strong>Legacy-Monolithen</strong> fit für die Cloud zu machen.</li><li>Ihre <strong>KYC und AML</strong> Lösungen in Ihre Infrastruktur zu integrieren.</li><li>Ihren Meldeprozess an die <strong>FIU mit goAML XML</strong> Dateien zu automatisieren.</li><li>Einen Im Rahmen von <strong>PSD3</strong> einen <strong>IBAN-Name-Check</strong> zu implementieren.</li><li>Ihr AML-Regelset durch eine <strong>CI/CD Pipeline und fachliche AML-Tests</strong> fit für das nächste <strong>Audit</strong> zu machen.</li></ul><p><p>Ich freue mich auf Ihre Anfrage"
+  author_bio: "Als erfahrener Cloud-Architekt und Java-Entwickler mit über 13 Jahren Erfahrung in der Softwareentwicklung 
+  - 10 davon im Banken und Versicherungsumfeld - unterstütze ich Ihr Unternehmen dabei, effektive Lösungen zu entwickeln 
+  und zu integrieren. Meine Expertise liegt in der Implementierung maßgeschneiderter Technologien im Bereich der 
+  <strong>Bekämpfung von Finanzkriminalität (AML, KYC, CFT)</strong>.<p><p>
+  Als zertifizierer Softwarearchitekt (iSAQB CPSA-A und CPSA-F) 
+  sowie AWS Certified Solutions Architect helfe ich Ihnen, Systeme zu schaffen, die sowohl Compliance-Anforderungen erfüllen als auch 
+  höchste Effizienz und Skalierbarkeit bieten.<p><p><strong>Kontaktieren Sie mich um</strong><p><ul>
+  <li>Ihre <strong>KYC und AML</strong> Lösungen in Ihre Infrastruktur zu integrieren.</li>
+  <li>Ihren Meldeprozess an die <strong>FIU mit goAML XML</strong> Dateien zu automatisieren.</li>
+  <li>Ihr altes AML-Regelset in ein neues AML-System zu migrieren.</li>
+  <li><strong>AML- und KYC-Systeme</strong>fachlich zu testen Testergebnisse revisionssicher zu reporten.</li>
+  <li>Ihren <strong>Legacy-Monolithen</strong> fit für die Cloud zu machen.</li>
+  </ul><p><p>Ich freue mich auf Ihre Anfrage"
   author_avatar: '/images/profile.png'
   cta_button_text: Kontaktieren
   cta_button_link: '/contact/'
